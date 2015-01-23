@@ -34,6 +34,7 @@ TARGET_CC_ARCH += "${LDFLAGS}"
 
 EXTRA_OECONF = "--disable-embedded-perl \
                 --with-perl-modules=no \
+                --enable-ipv6 \
                 --enable-shared \
                 --disable-manuals \
                 --with-defaults \
